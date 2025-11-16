@@ -13,7 +13,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Introduction & First Steps (Saturday – Week 1)
+## Introduction & First Steps
 
 **Main goals**
 - I want you to feel comfortable with the Python environment you will be using (editor, terminal, and how to run code).
@@ -40,7 +40,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Variables, Input & Basic Errors (Sunday – Week 1)
+## Variables, Input & Basic Errors
 
 **Main goals**
 - I want you to understand **variables** and **user input** and use them comfortably.
@@ -79,8 +79,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Conditions (if/elif/else) (Saturday – Week 2)
-
+## Conditions (if/elif/else) 
 **Main goals**
 - I want you to use `if`, `elif`, `else` to make decisions in your programs.
 
@@ -100,8 +99,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## More Conditions & Simple Programs (Sunday – Week 2)
-
+## More Conditions & Simple Programs 
 **Main goals**
 - Practice conditions with small, real‑looking programs so you can apply `if`/`elif`/`else` confidently.
 
@@ -128,8 +126,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Loops – `while` (Saturday – Week 3)
-
+## Loops – `while` 
 **Main goals**
 - Understand **repetition** with `while` loops.
 - Begin thinking in loops instead of repeating code manually.
@@ -150,8 +147,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Loops – `for`, `range`, and `break/continue` (Sunday – Week 3)
-
+## Loops – `for`, `range`, and `break/continue`
 **Main goals**
 - Use `for` loops and `range` to repeat actions a specific number of times or over a collection.
 - Control loops with `break` and `continue` so you can stop early or skip certain steps.
@@ -183,8 +179,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Functions – Basics (Saturday – Week 4)
-
+## Functions – Basics
 **Main goals**
 - I want you to be able to define and use your own **functions**.
 - I want you to understand parameters and return values and how data moves in and out of a function.
@@ -205,8 +200,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## More Functions & Problem Decomposition (Sunday – Week 4)
-
+## More Functions & Problem Decomposition 
 **Main goals**
 - I want you to break a bigger problem into multiple smaller functions.
 - I want you to practice passing values into functions and returning results from them.
@@ -238,8 +232,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Lists – Basics (Saturday – Week 5)
-
+## Lists – Basics 
 **Main goals**
 - I want you to use **lists** to store and work with collections of values.
 
@@ -261,8 +254,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## More Lists & Basic List Algorithms (Sunday – Week 5)
-
+## More Lists & Basic List Algorithms 
 **Main goals**
 - I want you to practice solving small problems using lists.
 
@@ -293,7 +285,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Strings in Detail (Saturday – Week 6)
+## Strings in Detail
 
 **Main goals**
 - I want you to work comfortably with **strings**.
@@ -314,8 +306,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Dictionaries & Sets (Intro) (Sunday – Week 6)
-
+## Dictionaries & Sets (Intro)
 **Main goals**
 - I want you to understand **dictionaries** and **sets** conceptually and practically.
 
@@ -350,8 +341,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Files & Basic Error Handling (Saturday – Week 7)
-
+## Files & Basic Error Handling
 **Main goals**
 - I want you to be able to read from and write to text files.
 - I want you to handle simple errors with `try/except` instead of letting your program crash.
@@ -372,8 +362,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Putting It Together – Small Project (Sunday – Week 7)
-
+## Putting It Together – Small Project 
 **Main goals**
 - I want you to combine **functions, loops, lists, strings, files** in a small but complete program.
 
@@ -405,8 +394,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Intro to Modules & Standard Library (Saturday – Week 8)
-
+## Intro to Modules & Standard Library 
 **Main goals**
 - I want you to understand what modules are and how to use Python’s standard library.
 
@@ -430,8 +418,7 @@ By the end of this module, I want you to be able to:
 
 ---
 
-## Review, Practice, and Next Steps (Sunday – Week 8)
-
+## Review, Practice, and Next Steps 
 **Main goals**
 - I want to review all key concepts with you and practice problem‑solving together.
 - I want to show you clear next steps after this module.
