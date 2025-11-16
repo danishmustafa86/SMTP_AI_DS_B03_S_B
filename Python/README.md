@@ -103,7 +103,7 @@ print(user_age)
   - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) (if arrays are too early, think through it conceptually).
   - [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) (also simple addition).
 - **Custom practice problems**
-  - Ask the user for length and width and print the area and perimeter of a rectangle.
+  - Ask the user for length and width and print the area (length * width) and perimeter ( 2 * [length + width]) of a rectangle.
   - Ask the user for two numbers and print which one is larger or if they are equal.
   - Ask for a number of minutes and convert it to hours and minutes (for example, `130` minutes → `2 hours 10 minutes`).
 
