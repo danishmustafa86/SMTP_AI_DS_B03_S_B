@@ -32,7 +32,7 @@ By the end of the course, you should be able to:
 
 **In‑class mini‑exercises**
 - Print a welcome message with student’s name.
-- Do simple calculations: area of a rectangle, sum of two numbers, etc.
+- Do simple calculations: area of a rectangle (length * Width), sum of two numbers, etc.
 
 **Homework idea (light, non‑LeetCode yet)**
 - Ask students to write 3–4 very small scripts:
