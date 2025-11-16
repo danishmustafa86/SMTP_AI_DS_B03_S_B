@@ -62,6 +62,36 @@ By the end of this module, I want you to be able to:
   - Online form where a user enters name and age → map each field to variables and `input()`.
   - Small billing or grocery app where you enter prices and quantities → use variables and arithmetic to calculate totals.
 
+**Code example – variables and arithmetic**
+
+```python
+# Arithmetic examples
+x = 10
+y = 3
+
+print(x + y)   # 13
+print(x * y)   # 30
+print(x / y)   # 3.333...
+print(x // y)  # 3  # integer division
+print(x % y)   # 1  # remainder
+```
+
+**Code example – simple variables**
+
+```python
+# 'message' is the variable name, "Hello!" is the string value
+message = "Hello!"
+print(message)
+
+# 'user_age' is the variable name, 25 is the integer value
+user_age = 25
+print(user_age)
+
+# Update the variable
+user_age = 26
+print(user_age)
+```
+
 **In‑class mini‑exercises**
 - Write a program that asks for name and age and then prints a message like: `"Hello Ali, you are 20 years old"`.
 - Write a simple calculator where the user inputs two numbers and an operator (`+` or `-`) and the program prints the result.
@@ -92,6 +122,21 @@ By the end of this module, I want you to be able to:
   - Grading system that decides pass/fail or grade categories based on marks.
   - Simple login screen that checks username and password before allowing access.
 
+**Code example – basic `if/elif/else`**
+
+```python
+score = 72
+
+if score >= 80:
+    grade = "A"
+elif score >= 60:
+    grade = "B"
+else:
+    grade = "C"
+
+print("Your grade is:", grade)
+```
+
 **In‑class mini‑exercises**
 - Program that checks if a number is positive, negative, or zero.
 - Grading system where you input a score (0–100) and print grade `A/B/C/D/F`.
@@ -107,6 +152,22 @@ By the end of this module, I want you to be able to:
 - Chained conditions with multiple `elif` to handle many cases cleanly.
 - Simple menu programs using `if`/`elif` (for example, choosing options 1, 2, 3 in a console menu).
 - **Logical thinking** with conditions (possibly using simple flow charts to visualize the decisions).
+
+**Code example – simple menu with `if/elif`**
+
+```python
+print("1. Add")
+print("2. Subtract")
+
+choice = input("Choose 1 or 2: ")
+
+if choice == "1":
+    print("You chose Add")
+elif choice == "2":
+    print("You chose Subtract")
+else:
+    print("Invalid choice")
+```
 
 **In‑class mini‑exercises**
 - Even‑or‑odd number checker.
@@ -140,6 +201,16 @@ By the end of this module, I want you to be able to:
   - Checking new messages in WhatsApp until there are none left → like a `while` loop.
   - Withdrawing money from an ATM until the balance is below a certain amount → loop condition.
 
+**Code example – simple `while` loop**
+
+```python
+n = 1
+
+while n <= 5:
+    print(n)
+    n += 1
+```
+
 **In‑class mini‑exercises**
 - Print numbers 1 to 10 using a `while` loop.
 - Sum numbers from 1 to `n` using a `while` loop.
@@ -160,6 +231,15 @@ By the end of this module, I want you to be able to:
 - **Real‑world examples**
   - Checking every message in a chat one by one → like looping over a list.
   - Scanning a list of students to find who passed → `for` loop with `if` conditions.
+
+**Code example – `for` with `range` and `continue`**
+
+```python
+for n in range(1, 11):
+    if n % 2 == 0:
+        continue  # skip even numbers
+    print(n)
+```
 
 **In‑class mini‑exercises**
 - Print the multiplication table for a number (for example, 5).
@@ -193,6 +273,16 @@ By the end of this module, I want you to be able to:
   - Functions as small machines in a factory: input goes in, work happens, output comes out.
   - Calculator where each button (add, subtract, multiply) is like a separate function you can call.
 
+**Code example – simple function**
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print("Sum:", result)
+```
+
 **In‑class mini‑exercises**
 - Write a function that adds two numbers and returns the result.
 - Write a function that checks if a number is prime (simple implementation).
@@ -213,6 +303,18 @@ By the end of this module, I want you to be able to:
 - **Real‑world examples**
   - Planning an event where tasks are split (booking venue, sending invites, arranging food) → splitting a program into functions.
   - Using helper functions to clean and format data before saving it, like mini-tools inside a bigger app.
+
+**Code example – function calling another function**
+
+```python
+def square(x):
+    return x * x
+
+def sum_of_squares(a, b):
+    return square(a) + square(b)
+
+print(sum_of_squares(2, 3))  # 13
+```
 
 **In‑class mini‑exercises**
 - Build a calculator that uses separate functions for each operation.
@@ -247,6 +349,19 @@ By the end of this module, I want you to be able to:
   - Shopping list on a phone → Python list of items.
   - List of student marks in a system → loop to compute averages.
 
+**Code example – basic list operations**
+
+```python
+students = ["Ali", "Sara", "Omar"]
+print(students[0])      # first student
+
+students.append("Fatima")
+print(len(students))    # 4
+
+for name in students:
+    print(name)
+```
+
 **In‑class mini‑exercises**
 - Store 5 student names in a list and print them one per line.
 - Take a list of numbers and compute the sum and average.
@@ -266,6 +381,23 @@ By the end of this module, I want you to be able to:
 - **Real‑world examples**
   - Cleaning up a contact list (removing duplicates, keeping only active contacts) → list operations.
   - Separating even and odd roll numbers in a class → splitting a list.
+
+**Code example – splitting a list into even and odd**
+
+```python
+numbers = [1, 2, 3, 4, 5, 6]
+evens = []
+odds = []
+
+for n in numbers:
+    if n % 2 == 0:
+        evens.append(n)
+    else:
+        odds.append(n)
+
+print("Evens:", evens)
+print("Odds:", odds)
+```
 
 **In‑class mini‑exercises**
 - Find the second largest number in a list.
@@ -299,6 +431,17 @@ By the end of this module, I want you to be able to:
   - Cleaning and formatting user names and email addresses → string methods.
   - Processing a sentence from a chat or email → splitting and joining strings.
 
+**Code example – cleaning and formatting text**
+
+```python
+text = "  hello, world!  "
+clean = text.strip().upper()
+print(clean)  # HELLO, WORLD!
+
+words = clean.split(", ")
+print(words)  # ['HELLO', 'WORLD!']
+```
+
 **In‑class mini‑exercises**
 - Count how many times a character appears in a string.
 - Reverse the words in a sentence.
@@ -322,6 +465,16 @@ By the end of this module, I want you to be able to:
 - **Real‑world examples**
   - Mini phonebook (name → phone number) → dictionary.
   - Removing duplicate email addresses from a mailing list → set.
+
+**Code example – dictionary and set**
+
+```python
+student = {"name": "Ali", "age": 20}
+print(student["name"])          # Ali
+
+emails = {"a@example.com", "b@example.com", "a@example.com"}
+print(emails)  # duplicate 'a@example.com' appears only once
+```
 
 **In‑class mini‑exercises**
 - Store student info in a dictionary and print a nicely formatted output.
@@ -354,6 +507,19 @@ By the end of this module, I want you to be able to:
 - **Real‑world examples**
   - Saving notes to a file like a mini notepad app.
   - Reading a configuration file or a simple log file for an application.
+
+**Code example – write and read a file**
+
+```python
+# Write to a file
+with open("notes.txt", "w") as f:
+    f.write("Hello file!\n")
+
+# Read from the same file
+with open("notes.txt") as f:
+    for line in f:
+        print(line.strip())
+```
 
 **In‑class mini‑exercises**
 - Read a text file and print each line with line numbers.
@@ -410,6 +576,19 @@ By the end of this module, I want you to be able to:
 - **Real‑world examples**
   - Generating OTP codes or random passwords → `random` module.
   - Showing the current date and time in an app → `datetime` module.
+
+**Code example – using `random` and `datetime`**
+
+```python
+import random
+from datetime import datetime
+
+otp = random.randint(100000, 999999)
+print("OTP:", otp)
+
+now = datetime.now()
+print("Current time:", now)
+```
 
 **In‑class mini‑exercises**
 - Build simple random number games (guess the number).
