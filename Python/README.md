@@ -1,4 +1,4 @@
-## Python Module
+## Module 1: Python
 
 
 ## Overall Goals
