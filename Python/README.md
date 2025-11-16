@@ -1,19 +1,9 @@
-## Weekend Python Course – 2‑Month Teaching Guide
+## Python Module
 
-This guide is for an **8‑week Python course**, taught **every Saturday and Sunday, 2 hours per lecture** (total **16 lectures**).  
-Target audience: **beginners** (no prior programming needed).
-
-- **Total duration**: ~8 weeks  
-- **Sessions per week**: 2 (Saturday & Sunday)  
-- **Time per session**: 2 hours  
-- **Style**: explanation → live coding → short exercises → Q&A  
-- **Practice**: after **every 2 lectures**, give a **small problem set** (can include easy LeetCode + simple custom problems).
-
----
 
 ## Overall Goals
 
-By the end of the course, students should be able to:
+By the end of the course, you should be able to:
 
 - **Write** small Python programs using variables, control flow, functions, and data structures.
 - **Work with data**: strings, lists, dictionaries, files, and simple errors.
@@ -31,7 +21,7 @@ By the end of the course, students should be able to:
 
 **Topics**
 - What is Python? Where it is used (web, data, AI, automation).
-- Installing Python (if needed), using **VS Code** or any editor of your choice.
+- Installing Python (if needed), using **VS Code**/**Cursor** or any editor of your choice.
 - Running Python:
   - `python` / `python3` in terminal.
   - Running `.py` files.
@@ -71,7 +61,7 @@ By the end of the course, students should be able to:
 - Ask user for name and age, print a message: `"Hello Ali, you are 20 years old"`.
 - Simple calculator: user inputs two numbers and an operator (`+` or `-`), program prints result.
 
-**Practice (after Lecture 1 & 2)**
+**Practice**
 - **Goal**: Comfortable with input, variables, basic math.
 
 - **Suggested LeetCode Easy problems**
@@ -431,15 +421,5 @@ By the end of the course, students should be able to:
 
 ---
 
-## Teaching Tips
-
-- **Balance theory and practice**: Aim for ~40–50% of the time doing **live coding** and **exercises**.
-- **Encourage questions**: Make it safe to say “I don’t understand”.
-- **Repeat key ideas**: Conditions, loops, and functions are central – revisit them often.
-- **Use clear naming and comments**: Model good coding style for your students.
-- **Show how to debug**: When an error happens in class, read the message and fix it slowly, explaining your thought process.
-- **Adjust pace**: If many students struggle, slow down and add more examples, even if you don’t cover every planned topic.
-
-You can adapt the schedule if students are faster or slower, but this `README` gives you a **complete, session‑by‑session roadmap** for teaching Python over 2 months of weekends.
 
 
