@@ -34,8 +34,8 @@ By the end of the course, you should be able to:
 - Print a welcome message with student’s name.
 - Do simple calculations: area of a rectangle (length * Width), sum of two numbers, etc.
 
-**Homework idea (light, non‑LeetCode yet)**
-- Ask students to write 3–4 very small scripts:
+**Homework (light, non‑LeetCode yet)**
+- Write 3–4 very small scripts:
   - Greet the user by name.
   - Convert Celsius to Fahrenheit.
   - Compute the perimeter of a rectangle.
